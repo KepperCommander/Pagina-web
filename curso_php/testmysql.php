@@ -1,4 +1,5 @@
 <?php
+//pagina para testear la conexion a la base de datos
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
 $servername = "localhost";
 $database = "usuarios";
