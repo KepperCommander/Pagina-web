@@ -67,12 +67,12 @@ if (isset($_POST['login'])) {
 <?php
 require_once 'config.php';
 session_start();
-if(isset($_SESSION["admin_login"])) //Condicion admin
+if(isset($_SESSION["admin_login"])) //Condicion administrador
 {
     header("location: admin_portada.php"); 
 }
 
-if(isset($_SESSION["usuarios_login"])) //Condicion Usuarios
+if(isset($_SESSION["usuarios_login"])) //Condiciones Usuarios
 {
 header("location: usuarios/login.php");
 }
