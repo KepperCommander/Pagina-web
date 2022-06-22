@@ -9,7 +9,8 @@
 	<p> Menú de Hipervinculos</p>
 <ul>
 	<li><a href=login.php> Lista de Usuarios</a></li>
-	<li><a href=articulos.php> Articulos de Cocina</a></li>
+	<li><a href=articulos.php> Articulos de Inventario</a></li>
+	//para mostrar base de datos
 </ul>
 </body>
 </html>
