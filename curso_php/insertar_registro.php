@@ -5,11 +5,11 @@ $servername = "localhost";
 $database = "usuarios";
 $username = "root";
 $password = "";
-// Create connection
+// Para crear la conexion
 $conexion = mysqli_connect($servername, $username, $password, $database);
 mysqli_select_db ($conexion,$database) or die("no se encuentra la base de datos"); 
 
-// Check connection
+// Para verificar la conexion
 if (!$conexion) {
       die("Connection failed: " . mysqli_connect_error());
 }
@@ -28,3 +28,4 @@ if ($resultado == false) {
       }
 mysqli_close($conexion);
 ?>
+//Cerrar la conexion
